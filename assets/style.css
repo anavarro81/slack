@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, p, a{
+    padding: 10px;    
+    color: #000;
+}
+
+h2 h3{
+    font-size: 32px;
+}
+
+
+
+body {
+    font-size: 16px;
+    color:#000;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/* section {
+    margin: 10px auto;
+} */
+
+.horchata-section {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+h4 {
+    font-size: 18px;    
+    /* text-align: center; */
+    padding-top: 10px;
+}
+
+p {
+    font-size:18px;
+    font-weight:400;
+}
+
+section a {
+    color: #1264a3;
+    text-decoration: none;
+}
+
+
+/* header */
+
+.logo {
+     max-width: 70px; 
+     margin-left: 20px;
+}
+
+.mobile-header {
+    width: 100%;
+    height: auto; 
+    background-color: #541554;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.hamburger-wrapper {
+    max-width: 100px; 
+}
+
+.hamburguesa-icono {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    margin-right: 20px;
+}
+
+.header-wrapper {
+    font-size: 30px;
+    background-color: #541554;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+    
+}
+
+.google-btn {
+    background-color: #4285F4;  
+    border-radius: 5px;
+    color: white;    
+    text-decoration: none;
+    font-size: 16px;
+    /* padding: 0px 50px;  */
+    margin-bottom: 5px;
+    width: 100%;
+    
+ 
+}
+.google-icon {
+    margin: 10px;
+    width: 20px;
+    
+} 
+.google-btn a {
+    color: white;
+    /* text-align: center; */
+}
+
+.header-wrapper h1{
+    color: white;
+    text-align: center;
+}
+
+
+.header-wrapper h1 span {
+    color: #ECB22E;
+}
+
+.header-wrapper p {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.button-reg-email {
+    background-color: white;  
+    border-radius: 5px;
+    color: #741F69;    
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 50px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+.button-reg-gogl {
+    background-color: #4285F4;  
+    border-radius: 5px;
+    color: white;    
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 50px;
+    margin-bottom: 5px;
+    width: 80%;
+    text-align: center;
+}
+  
+/* Entreprise */
+
+.enteprise-wrapper {
+    background-color: #F4EDE4;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.team-wrapper {
+    background-color: #ECE6DD;
+}
+
+.enteprise-wrapper h2 {
+    text-align: center;
+}
+  
+.entrepise-icons {    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.entrepise-icons img {
+    margin: 25px;
+
+}
+
+.btn-rdn-bder {
+    background-color: #611F69;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    clip-path: ellipse(75% 100% at center top);    
+}
+
+.btn-rdn-bder h3 {
+     color: white; 
+     text-align: center;
+     font-size: 32px;
+}
+
+
+.porcentaje-box h3 {
+    color: #611F69;
+    font-size: 30px;
+    text-align: center;
+}
+
+.porcentaje-box p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    font-size: .875rem;
+}
+
+/* video */
+
+.video {
+    width: 97%;
+    height: auto;
+    clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+}
+
+.video-section {
+    margin: 0px auto;
+}
+
+
+/* cards */
+
+.cards-wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F4EDE4;
+    width: 100%;
+    background-color: #F4EDE4;
+    
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 70%;
+    background-color: white;
+}
+
+.card > p h3 a {
+    text-align: left;
+}
+    
+/* Footer */
+
+.logo-footer img {
+    max-width: 50px;
+    margin-left: 10px;
+
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+    align-items:space-around;    
+    padding-top: 10px;
+    padding-left: 10px;    
+    padding-right: 10px;
+}
+.footer-item p {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+.footer-item span {    
+    text-align: right;    
+}
+
+
+.footer-item {
+    display: flex;
+    width: 100%;
+}
+
+.solid {
+    border-top: 3px solid #bbb;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* ============================================ */
+/* BOTONES                                      */
+/* ============================================ */
+
+.btn {
+    
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;    
+    margin: 10px auto;
+    text-align: center;
+    width: 80%;
+    display: block;    
+    color:  #611f69;;
+    background-color: white;
+    padding: 12px 25px 20px;
+}
+
+.btn-purple {
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;    
+    margin: 10px auto;
+    text-align: center;
+    width: 80%;
+    display: block;    
+    color: white;
+    background-color: #611f69;
+    padding: 12px 25px 20px;
+}
+
+.btn-trasparente {
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;    
+    margin: 10px auto;
+    text-align: center;
+    width: 80%;
+    display: block;    
+    color: white;
+    background-color: transparent;
+    padding: 12px 25px 20px;
+    border: 1px solid white;
+}
+
+/* utilidades */
+
+/* Background */
+.bg-white {
+    background-color: white;    
+}
+
+.bg-purple {
+    background-color: #611f69;    
+}
+
+.bg-horchata {
+    background-color: #F4EDE4;    
+}
+
+
+
+/* text color */
+.txt-purple {
+    color: purple;   
+}
+
+.txt-white {
+    color: white;
+}
+
+/* text-align */
+.text-left {
+   text-align: left; 
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.bg-trasp {
+    background-color: transparent;
+}
+
+/* border */
+
+.border-1px-white {
+    border: 1px solid white;
+}
+
+.border-1px-black {
+    border: 1px solid black;
+}
+
+.border-1px-purple {
+    border: 1px solid purple;
+}
+
+
+
